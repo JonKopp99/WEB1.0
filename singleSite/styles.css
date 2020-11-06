@@ -1,0 +1,252 @@
+body {
+    font-family:Helvetica;
+    font-weight: lighter;
+    font-size:1em;
+    margin: 0;
+    background-color: #000;
+}
+
+
+/* Navbar Styles*/
+#nav-bar {
+    justify-content:flex-start;
+    align-items:center;
+    padding:1.25em;
+    background-color:rgba(0, 0, 0, 0.5);
+    display:flex;
+    position:inherit;
+
+}
+
+nav, h1, ul {
+    margin:0;
+    z-index:10;
+}
+
+nav ul {
+    display:flex;
+    list-style-type:none;
+    padding:0;
+}
+
+nav ul a {
+    padding: 1.25em;
+    color: white;
+    font-weight:600;
+    text-shadow: rgba(0, 0, 0, 0.65) 0 0 4px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color:lightGrey;
+}
+
+/* Top Banner Styles*/
+.topBanner {
+    background-image: url("uncharted-logo-banner.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner {
+    background-color: #26B63E;
+    background: url(images/iLoveMinecraft.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+}
+#banner h1 {
+    font-size: 4em;
+    color: #fff;
+    padding-top: 100px;
+    text-shadow: 2px 2px #000;
+}
+
+/* Mobs Styles */
+#mobs .card {
+    height:580px;
+    width:420px;
+    margin:1em;
+    background-color: rgb(30,30,30);
+    box-shadow: 4px 4px rgb(40,40,40);
+}
+
+#mobs .card img {
+    margin: 1em;
+    width:90%;
+}
+
+#mobs .card h3 {
+    font-size:2em;
+    font-family: Helvetica;
+}
+
+#mobs .card h3, .card h4, .card p {
+    margin: 1rem;
+}
+
+#mobs {
+    background-color: black;
+}
+#mobs ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+#mobs h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-family:Helvetica;
+    margin-top: 20px;
+}
+#mobs h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+#mobs h4 {
+    color: rgb(240,240,240);
+    text-align: left;
+    font-size: 1.25em;
+    font-family: Helvetica;
+}
+#mobs p {
+    color: rgb(240,240,240);
+    text-align: left;
+    font-size: 1em;
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+/*Game Reviews */
+#game-reviews {
+    height:910px;
+    background-color: black;
+    background: url(images/fight.jpg);
+    background-size:cover;
+    color:white;
+    display:flex;
+}
+#game-reviews img {
+    margin:0;
+}
+#game-reviews h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:Helvetica;
+    text-shadow: 2px 2px #000;
+    margin-top: 10px;
+}
+#game-reviews h4 {
+    color: rgb(240,240,240);
+    text-align: left;
+    font-size: 2em;
+    font-family: Helvetica;
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-right: 30%;
+    text-shadow: 1px 1px #000;
+}
+#game-reviews h5 {
+    color: rgb(240,240,240);
+    text-align: right;
+    font-size: 2em;
+    font-family: Helvetica;
+    font-weight: lighter;
+    padding-left: 30%;
+    padding-right: 20px;
+    text-shadow: 1px 1px #000;
+}
+#game-reviews-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-bottom:10px;
+}
+
+/* Gameplay Styles */
+#gameplay .cardImg {
+    height:350px;
+    width:420px;
+    margin:1em;
+    background-color: rgb(30,30,30);
+    box-shadow: 4px 4px rgb(40,40,40);
+}
+#gameplay {
+    background-color: #000;
+    margin-bottom: 100px;
+}
+#gameplay h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:Helvetica;
+    text-shadow: 2px 2px #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#gameplay ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Beta Styles */
+#beta {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+}
+
+#beta form {
+    display: flex;
+    flex-direction:column;
+    justify-items:center;
+    align-items:left;
+
+}
+
+#beta label {
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    align-items:left;
+    padding-bottom:5px;
+    margin: 0.5em 0;
+}
+
+#beta input, textarea {
+    border: 1px solid #fff;
+    background-color: rgb(50, 50, 50);
+    padding: 0.5em;
+    margin: 0;
+    width: 30em;
+    font-size: 1.25em;
+}
+
+#beta form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em 0;
+    padding-left: 0px;
+    align-self: flex-start;
+    background-color:rgb(100, 150, 250);
+    color: #fff;
+}
